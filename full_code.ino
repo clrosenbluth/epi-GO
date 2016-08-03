@@ -27,9 +27,6 @@ String currentLong;
 String currentLoc;
 String fullMessage;
 
-uint8_t readline(char *buff, uint8_t maxbuff, uint16_t timeout = 0);
-uint8_t type;
-
 char gpsdata[120];
 int led = 13;
 int button = 7;
