@@ -1,3 +1,7 @@
+
+//This code uses a normal Arduino, a FONA 808 and a DS1307 RTC
+//Make sure that the correct libraries are downloaded before using this code
+
 #include "Adafruit_FONA.h"
 #include <Wire.h>
 #include <TimeLib.h>
